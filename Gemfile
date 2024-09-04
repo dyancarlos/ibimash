@@ -11,7 +11,7 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
 gem "bootstrap", "~> 5.3.3"
 gem "sassc-rails"
-# gem "turbo-rails"
+gem "turbo-rails"
 
 group :tools do
   gem "rubocop", require: false

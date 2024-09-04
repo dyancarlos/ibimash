@@ -1,4 +1,6 @@
-<span>
-  <%= image_tag("candidates/#{candidate.avatar}.jpg") %>
-  <p><%= candidate.name %></p>
-</span>
+<%= link_to candidates_path(winnder: winner, loser: loser), data: { turbo_method: :put } do %>
+  <span>
+    <%= image_tag("candidates/#{candidate.avatar}.jpg", class: 'img-thumbnail img-fluid') %>
+    <p><%= candidate.name %></p>
+  </span>
+<% end %>
