@@ -13,7 +13,7 @@
 ActiveRecord::Schema[7.2].define(version: 2024_09_04_144230) do
   create_table "candidates", force: :cascade do |t|
     t.string "name", null: false
-    t.decimal "rating", default: "1500.0", null: false
+    t.float "rating", default: 1500.0, null: false
     t.integer "plays_count", default: 0, null: false
     t.string "avatar"
     t.datetime "created_at", null: false
