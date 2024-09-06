@@ -7,7 +7,7 @@ class CandidatesController < ApplicationController
 
     redirect_to new_candidate_battles_path
   rescue StandardError
-    redirect_to new_candidate_battles_path, notice: 'Algo de errado aconteceu, por favor, tente novamente!'
+    redirect_to new_candidate_battles_path, notice: "Algo de errado aconteceu, por favor, tente novamente!"
   end
 
   private
