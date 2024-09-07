@@ -19,6 +19,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_09_06_165224) do
     t.float "rating", default: 1500.0, null: false
     t.integer "plays_count", default: 0, null: false
     t.string "avatar"
+    t.boolean "special", default: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -27,3 +27,7 @@ puts "===================> Creating Candidates"
 ].each do |candidate|
   FactoryBot.create(:candidate, name: candidate, avatar: candidate.parameterize)
 end
+
+[ "JONES", "DR. JOÃO" ].each do |candidate|
+  FactoryBot.create(:candidate, name: candidate, avatar: candidate.parameterize, special: true)
+end

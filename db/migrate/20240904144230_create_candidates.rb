@@ -5,6 +5,7 @@ class CreateCandidates < ActiveRecord::Migration[7.0]
       t.float :rating, null: false, default: 1500, precision: 10, scale: 2
       t.integer :plays_count, null: false, default: 0
       t.string :avatar
+      t.boolean :special, default: false
       t.timestamps
     end
   end

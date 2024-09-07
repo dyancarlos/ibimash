@@ -4,5 +4,6 @@ FactoryBot.define do
     rating { 1500 }
     plays_count { 0 }
     avatar { 'candidate.jpg' }
+    special { false }
   end
 end
