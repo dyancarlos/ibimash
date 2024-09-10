@@ -1,1 +1,40 @@
 @import 'bootstrap';
+
+.alci, .andreia, .andri-balansin, .ari-roman, .chiquinho-pellin,
+.cleiton, .cristiane-pizzinatto, .diana, .dr-joao, .elvio-brasil,
+.ima, .joao-edio, .jones, .jusseno, .keilor-basso,
+.landa-brunelli, .luciana, .maicon-vizentin, .manica, .marcelo
+{ max-width: 100%; background-size: 100%; background-image: url('sprite.png'); }
+
+.alci { background-position: 0 0%; background-size: 100%; }
+.andreia { background-position: 0 5.263158%; background-size: 100%; }
+.andri-balansin { background-position: 0 10.526316%; background-size: 100%; }
+.ari-roman { background-position: 0 15.789474%; background-size: 100%; }
+.chiquinho-pellin { background-position: 0 21.052632%; background-size: 100%; }
+.cleiton { background-position: 0 26.315789%; background-size: 100%; }
+.cristiane-pizzinatto { background-position: 0 31.578947%; background-size: 100%; }
+.diana { background-position: 0 36.842105%; background-size: 100%; }
+.dr-joao { background-position: 0 42.105263%; background-size: 100%; }
+.elvio-brasil { background-position: 0 47.368421%; background-size: 100%; }
+.ima { background-position: 0 52.631579%; background-size: 100%; }
+.joao-edio { background-position: 0 57.894737%; background-size: 100%; }
+.jones { background-position: 0 63.157895%; background-size: 100%; }
+.jusseno { background-position: 0 68.421053%; background-size: 100%; }
+.keilor-basso { background-position: 0 73.684211%; background-size: 100%; }
+.landa-brunelli { background-position: 0 78.947368%; background-size: 100%; }
+.luciana { background-position: 0 84.210526%; background-size: 100%; }
+.maicon-vizentin { background-position: 0 89.473684%; background-size: 100%; }
+.manica { background-position: 0 94.736842%; background-size: 100%; }
+.marcelo { background-position: 0 100%; background-size: 100%; }
+
+
+.mauro, .nailde, .nando, .pro-lore, .renata-maciel,
+.vilsinho
+{ max-width: 100%; background-size: 100%; background-image: url('sprite-2.png'); }
+
+.mauro { background-position: 0 0%; background-size: 100%; }
+.nailde { background-position: 0 20%; background-size: 100%; }
+.nando { background-position: 0 40%; background-size: 100%; }
+.pro-lore { background-position: 0 60%; background-size: 100%; }
+.renata-maciel { background-position: 0 80%; background-size: 100%; }
+.vilsinho { background-position: 0 100%; background-size: 100%; }
